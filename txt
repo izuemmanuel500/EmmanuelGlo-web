@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://emmanuelglo-web.onrender.com/sitemap.xml
-
-# Disallow admin/private
-Disallow: /admin
-Disallow: /private
