@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;background:#1e1e1e;color:#d4d4d4;font-family:Consolas,monospace}
+.top{background:#323233;padding:10px 15px;font-size:12px;color:#ccc}
+#code{padding:20px;white-space:pre-wrap;font-size:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="top">● ● ● EmmanuelGlo-web — index.html — (PHONE CODING)</div>
+<div id="code"></div>
+<script>
+const code=`PASTE YOUR FINAL WEBSITE CODE HERE`;
+
+let i=0;const el=document.getElementById('code');
+function type(){
+ if(i<code.length){
+  el.textContent+=code[i++];
+  window.scrollTo(0,document.body.scrollHeight);
+  setTimeout(type, 5); // 5 = SUPER FAST LIKE PRO
+ }
+}
+type();
+</script>
+</body>
+</html>
